@@ -5,23 +5,16 @@ Please see the corresponding sections below for details.
 Dependencies
 ============
 
-  URI: <first dependency>
-  branch: <branch name>
+  URI:    https://git.yoctoproject.org/git/poky
+  branch: thud
 
-  URI: <second dependency>
-  branch: <branch name>
-
-  .
-  .
-  .
+  URI:    https://github.com/openembedded/meta-openembedded
+  branch: thud
 
 Patches
 =======
 
-Please submit any patches against the meta-iot-demo layer to the xxxx mailing list (xxxx@zzzz.org)
-and cc: the maintainer:
-
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+Maintainer: Drew Moseley <drew.moseley@northern.tech>
 
 Table of Contents
 =================
@@ -37,5 +30,3 @@ Run 'bitbake-layers add-layer meta-iot-demo'
 
 II. Misc
 ========
-
---- replace with specific information about the meta-iot-demo layer ---
