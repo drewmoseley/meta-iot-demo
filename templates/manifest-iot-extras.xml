@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/drewmoseley" name="drewmoseley"/>
+  <project name="meta-iot-demo" remote="drewmoseley" revision="master" path="sources/meta-iot-demo"/>
+</manifest>
