@@ -1,0 +1,9 @@
+[Unit]
+Description=IOT MQTT Demo Sensor Mode
+
+[Service]
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/iot-mqtt-sensor.py
+
+[Install]
+WantedBy=sysinit.target

@@ -1,0 +1,9 @@
+[Unit]
+Description=IOT MQTT Demo Actuator Mode
+
+[Service]
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/iot-mqtt-actuator.py
+
+[Install]
+WantedBy=sysinit.target
